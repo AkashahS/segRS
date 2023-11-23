@@ -23,7 +23,8 @@ The code requires `python>=3.8`, as well as `pytorch>=1.7` and `torchvision>=0.8
 Clone the repository and install the required packages:
 
 ```
-git clone https://github.com/AkashahS/SegRS && cd segRS
+git clone https://github.com/AkashahS/SegRS
+cd segRS
 pip install torch torchvision
 pip install -e .
 ```
