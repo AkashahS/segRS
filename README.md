@@ -35,7 +35,7 @@ conda env create -f environment.yml
 conda activate rsenv
 ```
 
-### Usage
+### Getting Started
 
 Use as a library:
 
