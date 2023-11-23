@@ -1,6 +1,6 @@
 # SegRS : Segmentation for Remote Sensing
 
-[Akashah Shabbir](https://akashahs.github.io/), Muhammad Ibraheem Siddiqi, Sara Ghaboura
+[Akashah Shabbir](https://akashahs.github.io/), Muhammad Ibraheem Siddiqui, Sara Ghaboura
 
 The **segment for Remote Sensing (SegRS)** is automated instance segmentation pipeline utilizing Segment Anything Model SAM and other foundational models (FM), conjointly adapting and maximizing their aptness for remote sensing domain. A mask refinement method combined with prompt-based RSI sampling techniques is designed to significantly enhance cross-domain generalization.
 
