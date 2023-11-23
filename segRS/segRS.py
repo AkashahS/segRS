@@ -144,10 +144,7 @@ class segRS():
         boxes, logits, phrases = self.predict_dino(image_pil, text_prompt, box_threshold, text_threshold)
         
         # Predicting remoteCLIP scores for croped images 
-        
         text = self.tokenizer(clip_text_queries)
-        
-        
         boxes_DS = [] # downsampled boxes
         box_probs = [] # probabilities of downsampled boxes given by remoteCLIP
         
