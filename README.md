@@ -63,7 +63,7 @@ First download a model checkpoint.
 from PIL import Image
 from segRS import segRS
 
-model = LangSAM("<SAM_model_type>","<remoteCLIP_model_type>", "<path/to/checkpoint>")
+model = segRS("<SAM_model_type>","<remoteCLIP_model_type>", "<path/to/checkpoint>")
 image_pil = Image.open("sample/plane.png").convert("RGB")
 text_prompt = "plane"
 text_queries = [
