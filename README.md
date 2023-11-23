@@ -33,7 +33,7 @@ Create a Conda environment from the `environment.yml` file:
 ```
 conda env create -f environment.yml
 # Activate the new environment:
-conda activate rsenv
+conda activate segrsenv
 ```
 
 ### Getting Started
