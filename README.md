@@ -113,6 +113,10 @@ This project is based on the following repositories:
 - [RemoteCLIP](https://github.com/ChenDelong1999/RemoteCLIP)
 - [Language Segment-Anything](https://github.com/luca-medeiros/lang-segment-anything)
 
+  
+The source code is adapted from the https://github.com/luca-medeiros/lang-segment-anything repository.
+Credits to Luca Medeiros for the original implementation. SAM + groundingDINO implementation by source code is used as baseline for this project and segRS pipeline is introduced with RemoteCLIP addition. 
+
 ## License
 
 This project is licensed under the Apache 2.0 License
