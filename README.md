@@ -77,7 +77,7 @@ masks, boxes, phrases, logits = model.predict_segRS(image_pil, text_prompt,text_
 ```
 ## Dataset
 
-See [LoveDA](https://github.com/Junjue-Wang/LoveDA) and [iSAID](https://github.com/CAPTAIN-WHU/iSAID_Devkit) for an overview of the dataset used in evaluation. The dataset can be downloaded [LoveDA-Dataset](https://zenodo.org/records/5706578) and [iSAID-Dataset](https://captain-whu.github.io/iSAID/dataset.html). 
+See [LoveDA](https://github.com/Junjue-Wang/LoveDA) and [iSAID](https://github.com/CAPTAIN-WHU/iSAID_Devkit) for an overview of the dataset used in evaluation. The dataset can be downloaded from [LoveDA-Dataset](https://zenodo.org/records/5706578) and [iSAID-Dataset](https://captain-whu.github.io/iSAID/dataset.html). 
 
 The images of iSAID is the same as the DOTA-v1.0 dataset. Please download iSAID dataset that contains annotation file and original images from [DOTA-dataset](https://captain-whu.github.io/DOTA/index.html). 
 
