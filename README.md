@@ -77,7 +77,7 @@ masks, boxes, phrases, logits = model.predict_segRS(image_pil, text_prompt,text_
 ```
 ## Dataset
 
-See [LoveDA](https://github.com/Junjue-Wang/LoveDA) and [iSAID](https://github.com/CAPTAIN-WHU/iSAID_Devkit) for an overview of the dataset used in evaluation. The dataset can be downloaded [LoveDA-Dataset](https://zenodo.org/records/5706578) and [iSAID-Dataset](https://captain-whu.github.io/iSAID/dataset.html). 
+See [LoveDA](https://github.com/Junjue-Wang/LoveDA) and [iSAID](https://github.com/CAPTAIN-WHU/iSAID_Devkit) for an overview of the dataset used in evaluation. The dataset can be downloaded from [LoveDA-Dataset](https://zenodo.org/records/5706578) and [iSAID-Dataset](https://captain-whu.github.io/iSAID/dataset.html). 
 
 The images of iSAID is the same as the DOTA-v1.0 dataset. Please download iSAID dataset that contains annotation file and original images from [DOTA-dataset](https://captain-whu.github.io/DOTA/index.html). 
 
@@ -112,6 +112,10 @@ This project is based on the following repositories:
 - [Segment-Anything](https://github.com/facebookresearch/segment-anything)
 - [RemoteCLIP](https://github.com/ChenDelong1999/RemoteCLIP)
 - [Language Segment-Anything](https://github.com/luca-medeiros/lang-segment-anything)
+
+  
+The source code is adapted from the https://github.com/luca-medeiros/lang-segment-anything repository.
+Credits to Luca Medeiros for the original implementation. SAM + groundingDINO implementation by source code is used as baseline for this project and segRS pipeline is introduced with RemoteCLIP addition. 
 
 ## License
 
