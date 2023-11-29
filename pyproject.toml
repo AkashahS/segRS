@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "segRS"
-version = "0.1.0"
+version = "1.0"
 description = "SegRS"
 readme = "README.md"
 documentation = ""
@@ -21,9 +21,9 @@ numpy = "^1.24.2"
 opencv_python = "^4.7.0.72"
 Pillow = "9.3.0"
 transformers = "^4.27.4"
-lightning = "^2.0.1"
 segment-anything = {git = "https://github.com/facebookresearch/segment-anything.git"}
 groundingdino = {git = "https://github.com/IDEA-Research/GroundingDINO.git"}
+remoteclip = {git = "https://github.com/ChenDelong1999/RemoteCLIP.git"}
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^2.20.0"
